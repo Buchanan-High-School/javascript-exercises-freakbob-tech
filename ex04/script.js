@@ -1,21 +1,22 @@
-console.log("I'm here!")
+function task1() {
+  let myArray = [];
+  // This will run when you click the button.
+  myArray.forEach((item) => {
+    let el = document.createElement("p");
+    el.innerText = item;
+    target.appendChild(el);
+    
+  });
+}
 
-let myArray = [
-    "Nathaniel Micheal Anderson",
-    "Brycen Dylan Morin",
-    "Andrew Anthony Wayne Simmons"
-]
+function task2A() {
+  // Write your code in here
+}
 
-console.log(myArray)
+function task2B() {
+  // Write your code in here
+}
 
-let names = document.querySelectorAll("li")
-let target = document.querySelector("#receiver")
-
-console.log(names)
-
-names.forEach(item => {
-    let newEl = document.createElement("li");
-    newEl.innerText = "Hi " + item.innerText;
-    newEl.style.fontWeight = 800
-    target.appendChild(newEl)
-})
+function task3() {
+  // Write your code in here
+}
