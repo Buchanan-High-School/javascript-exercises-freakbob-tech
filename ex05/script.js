@@ -28,8 +28,11 @@ const teachers = [
 ]
 
 function task1() {
-    // Create your own object assigned to a variable.
-    // console.log your object when this function is run.
+    let person = {
+        "name": "Andrew Anderson",
+        "height": "4,1",
+    }
+    console.log("Run")
 }
 
 function task2() {
