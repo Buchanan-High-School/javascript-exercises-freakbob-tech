@@ -12,7 +12,7 @@ const randomButton = document.querySelector("#random-color");
 colorButton.addEventListener("click", function() {
     console.log("Clicked!")
     // Get element from colors array
-    let pickedColor = Math.floor(Math.random() * colors.length) 
+    let pickedColor = Math.floor(getRandomNumber() * colors.length) 
     // Change background
     document.body.style.backgroundColor = colors[pickedColor]
     // Update colorSpan
@@ -26,10 +26,16 @@ randomButton.addEventListener("click", function() {
     // Pick 6 random values from HEX array
     // Loop over array 6 times
     for(let el=0; el<6; el++) {
-        pickedColor += hex[Math.floor(Math.random() * hex.length)];
+        pickedColor += hex[getRandomNumber(hex)];
         console.log(pickedColor)
     }
     // Set background
     document.body.style.backgroundColor = pickedColor;
+    colorSpan.innerText = [pickedColor]
     // Update colorSpan
 })
+
+function getRandomNumber(list) {
+    return Math.floor(Math.random() * list.length);
+}
+

@@ -27,18 +27,40 @@ const teachers = [
     },
 ]
 
-function task1() {
-    let person = {
-        "name": "Andrew Anderson",
+const students = [
+    {
+        "name": "Andrew Dylan Anderson",
+        "height": "3,4",
+        "age": 17
+    },
+
+    {
+        "name": "Brycen Micheal Simmons",
+        "height": "11,12",
+        "age": 16
+    },
+
+    {
+        "name": "Nathaneal Anthony Wayne Morin",
         "height": "4,1",
+        "age": 17
+    },
+
+    {
+        "name": "Camden Eli Stover",
+        "height": "8,9",
+        "age": 16
     }
-    console.log("Run")
+]
+
+let variable = students
+
+function task1() {
+    console.log(variable)
 }
 
 function task2() {
-    // Write some HTML to create a card display for a person.
-    // When you click the button, the data from the `person`
-    // object above should be filled in on the page.
+
 }
 
 function task3() {
