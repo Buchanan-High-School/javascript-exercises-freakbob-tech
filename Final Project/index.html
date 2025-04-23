@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>
+            Furniture
+        </h1>
+        <section class="products">
+            <div class="sidebar">
+                <h2>
+                    Search Bar
+                </h2>
+                <form class="input-form">
+                    <input type="text" class="search-input" placeholder="search...">
+                </form>
+            </div>
+            <div class="not-sidebar products-container">
+                <article class="products">
+                    <img src="http://placeholder.com/150" alt="">
+                    <footer>
+                        <p class="product-name">Furniture Item</p>
+                        <p class="product-price">$9.99</p>
+                    </footer>
+                </article>
+            </div>
+        </section>
+        <footer class="form-footer">
+            <h2 class="form-shadow">
+                Customer Review Form
+            </h2>
+            <div class="form">
+                <label for="firstname">First name:</label><br>
+                <input type="text" id="firstname" name="firstname"><br>
+                <label for="lastname">Last name:</label><br>
+                <input type="text" id="lastname" name="lastname">
+                <p>Were you satisfied with your product?</p>
+                <input type="radio" id="yes" name="yesorno" value="Yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="yesorno" value="No">
+                <label for="no">No</label><br>
+                <label for="elaborate">What are the things you're satisfied with?:</label><br>
+                <input class="sigma" type="text" id="elaborate" name="elaborate"><br>
+                <input type="submit" value="Submit">
+            </div>
+        </footer>
+    </main>
+    <script src="products.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
